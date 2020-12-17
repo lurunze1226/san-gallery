@@ -1,0 +1,44 @@
+{
+  "name": "san-gallery",
+  "version": "0.0.0",
+  "description": "gallery app based on SAN",
+  "main": "dist/index.ts",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lurunze1226/san-gallery.git"
+  },
+  "keywords": [
+    "san",
+    "picture",
+    "video"
+  ],
+  "author": "lurunze",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lurunze1226/san-gallery/issues"
+  },
+  "homepage": "https://github.com/lurunze1226/san-gallery#readme",
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-typescript": "^7.12.7",
+    "@types/lodash": "^4.14.165",
+    "@typescript-eslint/eslint-plugin": "^4.10.0",
+    "@typescript-eslint/parser": "^4.10.0",
+    "rollup": "^2.35.1",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-less": "^1.1.2",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-serve": "^1.1.0",
+    "rollup-plugin-uglify": "^6.0.4"
+  },
+  "dependencies": {
+    "lodash": "^4.17.20",
+    "san": "^3.10.0"
+  }
+}
